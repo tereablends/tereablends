@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="t d">
+  <title id="t">TEREA Blends UAE</title>
+  <desc id="d">IQOS guides and reference data for adult users in Dubai and the UAE</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#04100B"/>
+      <stop offset=".55" stop-color="#0B2419"/>
+      <stop offset="1" stop-color="#123A2A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="900" cy="170" r="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3E8F6B" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#3E8F6B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C9A86A"/>
+      <stop offset=".5" stop-color="#F3E3B8"/>
+      <stop offset="1" stop-color="#C9A86A"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="titleClip">
+      <text x="80" y="168" font-family="Georgia, 'Times New Roman', serif" font-size="74" font-weight="700" letter-spacing="-1">TEREA Blends UAE</text>
+    </clipPath>
+    <style>
+      .light{fill:#EAF6EF;opacity:.18;animation:pulse 4s ease-in-out infinite}
+      .l2{animation-delay:.5s}.l3{animation-delay:1s}.l4{animation-delay:1.5s}
+      @keyframes pulse{0%,100%{opacity:.18}15%,35%{opacity:1}55%{opacity:.18}}
+      .sheen{animation:sweep 6s ease-in-out infinite}
+      @keyframes sweep{0%{transform:translateX(-420px)}55%,100%{transform:translateX(900px)}}
+      .rise{opacity:0;animation:rise 1.2s ease-out .2s forwards}
+      .rise2{opacity:0;animation:rise 1.2s ease-out .6s forwards}
+      @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+      .ring{fill:none;stroke:#C9A86A;stroke-opacity:.35;animation:spin 40s linear infinite;transform-origin:950px 170px}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      @media (prefers-reduced-motion: reduce){.light,.sheen,.rise,.rise2,.ring{animation:none;opacity:1}.sheen{display:none}.light{opacity:.8}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="340" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="22" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1198" height="338" rx="21" fill="none" stroke="#C9A86A" stroke-opacity=".28"/>
+
+  <!-- decorative rings -->
+  <circle class="ring" cx="950" cy="170" r="120" stroke-dasharray="2 10" stroke-width="2"/>
+  <circle cx="950" cy="170" r="86" fill="none" stroke="#C9A86A" stroke-opacity=".18"/>
+
+  <!-- device: simplified holder with four status lights -->
+  <g transform="translate(950 170) rotate(-18)">
+    <rect x="-26" y="-112" width="52" height="224" rx="26" fill="#0E2A1F" stroke="#C9A86A" stroke-opacity=".55" stroke-width="1.5"/>
+    <rect x="-26" y="-112" width="52" height="40" rx="20" fill="#EFE6D4" opacity=".9"/>
+    <circle class="light l1" cx="0" cy="-30" r="5.5"/>
+    <circle class="light l2" cx="0" cy="-8" r="5.5"/>
+    <circle class="light l3" cx="0" cy="14" r="5.5"/>
+    <circle class="light l4" cx="0" cy="36" r="5.5"/>
+  </g>
+
+  <!-- text -->
+  <g class="rise">
+    <text x="82" y="96" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3.5" fill="#C9A86A">DUBAI · UAE</text>
+    <text x="80" y="168" font-family="Georgia, 'Times New Roman', serif" font-size="74" font-weight="700" letter-spacing="-1" fill="url(#gold)">TEREA Blends UAE</text>
+    <g clip-path="url(#titleClip)"><rect class="sheen" x="0" y="90" width="220" height="100" fill="url(#sheen)"/></g>
+  </g>
+  <g class="rise2">
+    <text x="82" y="214" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#D7E6DD">IQOS guides and open reference data for adult users</text>
+    <text x="82" y="246" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#D7E6DD">in Dubai and the UAE.</text>
+    <text x="82" y="296" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#8FB3A1">Sourced from official IQOS pages  ·  18+ only  ·  Not affiliated with PMI</text>
+  </g>
+</svg>

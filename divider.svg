@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="12" viewBox="0 0 1200 12" role="presentation">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#C9A86A" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#C9A86A" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#C9A86A" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .dot{fill:#F3E3B8;animation:move 5s ease-in-out infinite}
+      @keyframes move{0%{transform:translateX(0)}50%{transform:translateX(1180px)}100%{transform:translateX(0)}}
+      @media (prefers-reduced-motion: reduce){.dot{animation:none;transform:translateX(590px)}}
+    </style>
+  </defs>
+  <rect y="5.5" width="1200" height="1" fill="url(#g)"/>
+  <circle class="dot" cx="10" cy="6" r="3"/>
+</svg>
