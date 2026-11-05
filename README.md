@@ -14,8 +14,6 @@
 
 We're the guides team behind [TEREA Blends](https://iqosblends.ae/), an independent heated tobacco retailer in Dubai. We write plain-language reference material on IQOS devices and sticks for adult users across the UAE: which sticks fit which device, what the status lights mean, and how the ILUMA and BONDS models differ.
 
-This page is a quick reference. Every spec and light meaning below comes from official IQOS pages or user manuals, listed under [Sources](#sources). Where IQOS's own pages disagree with each other, we say so instead of picking a number.
-
 **On this page:**
 - [Which sticks fit which IQOS device](#which-sticks-fit-which-iqos-device)
 - [IQOS ILUMA i vs ILUMA i One vs ILUMA i Prime](#iqos-iluma-i-vs-iluma-i-one-vs-iluma-i-prime)
